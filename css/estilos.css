@@ -1,0 +1,101 @@
+* {box-sizing:border-box}
+* {font-family: Cambria,serif;}
+
+header{
+    background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 46%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 46%, #144E75 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 46%, #144E75 100%);
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 700; 
+}
+
+.presentacion{
+    color: whitesmoke;
+    text-align: center;
+    margin:6px 300px 0px 10px;
+    width:220px;
+    float:right;
+}
+
+img{
+    height: 130px;
+    border-radius: 50%;
+    margin: 0px 40px 0px 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.descripcion{
+    margin-left: 40px;
+    padding: 20px;
+    padding-left: 270px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+main{
+    width: 60%;
+    float:right;
+    padding: 0px 40px 30px 20px;
+    font-size: 25px;
+}
+main section, .habilidades{
+    margin-left: 20px;
+}
+
+.linea {
+    border-left: 5px solid rgb(18, 194, 179);
+    height: 700px;
+    position: initial;
+    left: 50%;
+    float: left;
+    top: 0;
+  }
+
+section{
+    margin-bottom: 50px;
+}
+
+li{
+    font-size: 18px;
+}
+
+.extras{
+    width: 40%;
+    float:right;
+    padding-left: 50px;
+
+}
+
+.extras p,.habilidades p{
+    font-size: 18px;
+}
+
+.w3-green {width: 90%;}       /*Diseño de las barras*/
+.w3-blue {width: 80%;} 
+.w3-red {width: 65%;} 
+.w3-brown {width: 60%;} 
+.w3-green,.w3-blue,.w3-red,.w3-brown{
+    font-size: 15px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(51, 102, 212);
+    font-weight: 700;
+    padding: 4px 10px 4px 20px;
+    margin:0px 10px 10px 0px;
+  }
+button:hover {
+    background-color: rgb(73, 17, 163);
+  }
+
+[id]{
+    display: none;
+}
